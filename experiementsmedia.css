@@ -1,0 +1,86 @@
+@media (min-width: 800px) and (max-width: 1280px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+    
+    .container {
+        margin-top: 400px;
+        width: 800px;
+        margin-left: 300px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    }
+    
+    @media (min-width: 250px) and (max-width: 525px) {
+    
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+        html {
+            height: 80%;
+        }
+        
+        body {
+            height: 80%;
+            background: #000000;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+            font-family: Figtree;
+            background-repeat: no-repeat;
+        }
+        
+        .backnav {
+            margin-top: 20px;
+            margin-left: 20px;
+            position: relative;
+            top: 60px;
+        } 
+        
+        .container {
+            margin-top: 400px;
+            width: 300px;
+            margin-left: 20px;
+            font-weight: 300;
+            font-size: 18px;
+        }
+        
+        h2 {
+            color: white;
+            font-size: 32px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+        
+        .brief p {
+            margin-bottom: 100px;
+            width: 300px;
+        }
+        
+        p {
+            width: 300px;
+            font-size: 16px;
+        }
+        
+        .quidlogo {
+            width: 100px;
+            -webkit-filter: drop-shadow(5px 10px 20px #22222222);
+            filter: drop-shadow(5px 10px 20px #22222222);
+        }
+        
+        .cover {
+            width: 200px;
+            -webkit-filter: drop-shadow(10px 10px 40px #22222222);
+            filter: drop-shadow(10px 10px 40px #22222222);
+        }
+        
+        
+        .flow1 {
+            width: 350px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+       
+        
+    }

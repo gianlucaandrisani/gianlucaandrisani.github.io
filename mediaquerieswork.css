@@ -1,0 +1,266 @@
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+    html {
+        height: 80%;
+    }
+
+    body {
+        height: 80%;
+        background: linear-gradient(0deg, #5200FF, #3300a0, #1f0062, black, black);
+        background-attachment: fixed;
+        color: white;
+        font-family: Figtree;
+        background-repeat: no-repeat;
+        /*background: linear-gradient(45deg, #000000, #5200ff);
+        background-size: 400% 400%;*/
+    }
+
+    .backnav {
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .container {
+        margin-top: 30px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .seekuripic {
+        width: 65%;
+        margin-left: 60px;
+        /* position: absolute; */
+        margin-top: -270px;
+    }
+
+    .workbuddypic {
+        width: 80%;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: -250px;
+    }
+
+    .quidpic {
+        width: 70%;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: -250px;
+    }
+
+    .prhionpic {
+        width: 80%;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: -270px;
+    }
+
+    .exppic {
+        width: 70%;
+        margin-left: 25px;
+        /* position: absolute; */
+        margin-top: -275px;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+
+    h2 {
+        font-weight: 500;
+        margin-top: 25px;
+    }
+
+    .workcard {
+        background: linear-gradient(225deg, rgba(255, 255, 255, 0.232), rgba(255, 255, 255, 0.179));
+        padding: 30px;
+        margin-top: 300px;
+        /*margin-left: 200px;*/
+        border-radius: 32px;
+        width: 270px;
+        height: 220px;
+        backdrop-filter: blur(40px);
+        box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.23);
+        transition: all 0.6s;
+    }
+
+
+    .workcard p {
+        font-weight: 300;
+    }
+
+    span {
+        font-weight: 450;
+    }
+
+    /*.projectbutton {
+        padding: 6px;
+        background-color: #fefefe;
+        margin-left: 450px;
+        margin-top: -25px;
+        border-radius: 16px;
+        width: 150px;
+        color: #3903ac;
+        font-size: 18px;
+        font-family: Figtree;
+        border: none;
+        height: 46px;
+        box-shadow:  10px 5px 20px #04000e40;
+        font-weight: 500;
+        transition: background-color 0.4s;
+        position: absolute;
+        transition: all 0.6s;
+    }*/
+
+    .projectbutton {
+        position: absolute;
+        padding: 6px;
+        background-color: #fefefe;
+        margin-left: 165px;
+        margin-top: 0px;
+        border-radius: 16px;
+        width: 150px;
+        color: #3903ac;
+        font-size: 18px;
+        font-family: Figtree;
+        border: none;
+        height: 46px;
+        box-shadow: 10px 5px 20px #04000e40;
+        font-weight: 500;
+        transition: background-color 0.4s;
+        position: absolute;
+        transition: all 0.6s;
+    }
+
+    .mediadiv {
+        margin-top: 50px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+    html {
+        height: 80%;
+    }
+
+    body {
+        height: 80%;
+        background: linear-gradient(0deg, #5200FF, #3300a0, #1f0062, black, black);
+        background-attachment: fixed;
+        color: white;
+        font-family: Figtree;
+        background-repeat: no-repeat;
+        /*background: linear-gradient(45deg, #000000, #5200ff);
+        background-size: 400% 400%;*/
+    }
+
+    .backnav {
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .container {
+        margin-top: 30px;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .seekuripic {
+        width: 65%;
+        margin-left: 60px;
+        /* position: absolute; */
+        margin-top: -270px;
+    }
+
+    .workbuddypic {
+        width: 80%;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: -250px;
+    }
+
+    .quidpic {
+        width: 70%;
+        margin-left: 20px;
+        /* position: absolute; */
+        margin-top: -250px;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+
+    h2 {
+        font-weight: 500;
+        margin-top: 25px;
+    }
+
+    .workcard {
+        background: linear-gradient(225deg, rgba(255, 255, 255, 0.232), rgba(255, 255, 255, 0.179));
+        padding: 30px;
+        margin-top: 280px;
+        /*margin-left: 200px;*/
+        border-radius: 32px;
+        width: 270px;
+        height: 220px;
+        backdrop-filter: blur(40px);
+        box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.23);
+        transition: all 0.6s;
+    }
+
+
+    .workcard p {
+        font-weight: 300;
+    }
+
+    span {
+        font-weight: 450;
+    }
+
+    /*.projectbutton {
+        padding: 6px;
+        background-color: #fefefe;
+        margin-left: 450px;
+        margin-top: -25px;
+        border-radius: 16px;
+        width: 150px;
+        color: #3903ac;
+        font-size: 18px;
+        font-family: Figtree;
+        border: none;
+        height: 46px;
+        box-shadow:  10px 5px 20px #04000e40;
+        font-weight: 500;
+        transition: background-color 0.4s;
+        position: absolute;
+        transition: all 0.6s;
+    }*/
+
+    .projectbutton {
+        position: absolute;
+        padding: 6px;
+        background-color: #fefefe;
+        margin-left: 165px;
+        margin-top: 0px;
+        border-radius: 16px;
+        width: 150px;
+        color: #3903ac;
+        font-size: 18px;
+        font-family: Figtree;
+        border: none;
+        height: 46px;
+        box-shadow: 10px 5px 20px #04000e40;
+        font-weight: 500;
+        transition: background-color 0.4s;
+        position: absolute;
+        transition: all 0.6s;
+    }
+
+    .mediadiv {
+        height: 100px;
+    }
+}

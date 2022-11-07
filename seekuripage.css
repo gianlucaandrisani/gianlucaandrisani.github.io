@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    height: 80%;
+}
+
+body {
+    height: 80%;
+    background: white;
+    background-attachment: fixed;
+    color: rgb(86, 86, 86);
+    font-family: Figtree;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(45deg, #000000, #5200ff);
+    background-size: 400% 400%;*/
+}
+
+/* .backvec {
+    position: absolute;
+    margin-top: -600px;
+    z-index: -1;
+}
+
+
+ .backvec2 {
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+    margin-left: 1000px;
+    width: 800px;
+} */
+
+.backnav {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: fixed;
+    top: 60px;
+} 
+
+.container {
+    margin-top: 400px;
+    width: 800px;
+    margin-left: 580px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h2 {
+    /* margin-top: 100px; */
+    color: #44AAE1;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.brief p {
+    margin-bottom: 100px;
+    width: 400px;
+}
+
+p {
+    width: 600px;
+}
+
+.seekurilogo {
+    width: 250px;
+    -webkit-filter: drop-shadow(5px 10px 20px #22222222);
+    filter: drop-shadow(5px 10px 20px #22222222);
+    margin-bottom: 100px;
+}
+
+.cover {
+    width: 350px;
+    z-index: -1;
+    position: absolute;
+    top: 210px;
+    margin-left: 300px;
+    -webkit-filter: drop-shadow(10px 10px 40px #22222222);
+    filter: drop-shadow(10px 10px 40px #22222222);
+}
+
+.problem img {
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+/* #babyphoto {
+    display: inline;
+    width: 500px;
+}
+
+#stats {
+    display: inline;
+    width: 600px;
+} */
+
+#babystats {
+    margin-top: 60px;
+    width: 700px;
+}
+
+.scheme {
+    padding: 50px;
+    border-radius: 32px;
+    width: 500px;
+}
+
+.scheme img {
+    width: 90%;
+}
+
+#personapic {
+    width: 700px;
+    margin-top: 50px;
+}
+
+#customerpic {
+    width: 1100px;
+    margin-top: 50px;
+    margin-left: -250px;
+}
+
+#inspo {
+    width: 400px;
+}
+
+#childrens {
+    width: 600px;
+}
+
+#ia {
+    width: 1000px;
+    margin-left: -250px;
+    margin-top: 50px;
+}
+
+#wireframes {
+    width: 600px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+}
+
+#UIelements {
+    width: 600px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+}
+
+.video {
+    width: 800px;
+    height: 450px;
+    margin-left: -75px;
+    margin-top: 50px;
+}
+
+#connection {
+    width: 1000px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+    margin-left: -180px;
+}
+
+.prototype {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 1200px;
+    height: 675px;
+    margin-left: -250px;
+}
+
+

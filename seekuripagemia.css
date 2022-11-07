@@ -1,0 +1,173 @@
+
+@media (min-width: 800px) and (max-width: 1280px) {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+.container {
+    margin-top: 400px;
+    width: 800px;
+    margin-left: 300px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+}
+
+@media (min-width: 250px) and (max-width: 525px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        height: 100%;
+        background: white;
+        background-attachment: fixed;
+        color: rgb(86, 86, 86);
+        font-family: Figtree;
+        background-repeat: no-repeat;
+        /*background: linear-gradient(45deg, #000000, #5200ff);
+        background-size: 400% 400%;*/
+    }
+    
+    /* .backvec {
+        position: absolute;
+        margin-top: -600px;
+        z-index: -1;
+    }
+    
+    
+     .backvec2 {
+        position: absolute;
+        margin-top: 0px;
+        z-index: -1;
+        margin-left: 1000px;
+        width: 800px;
+    } */
+    
+    .backnav {
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        top: 60px;
+        width: 600px;
+    } 
+    
+    .container {
+        margin-top: 200px;
+        width: 500px;
+        margin-left: 20px;
+        font-weight: 300;
+        font-size: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h2 {
+        /* margin-top: 100px; */
+        color: #44AAE1;
+        font-size: 32px;
+        font-weight: 400; 
+        width: 400px;
+    }
+    
+    p {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .brief p {
+        margin-bottom: 100px;
+        width: 300px;
+    }
+    
+    .seekurilogo {
+        width: 200px;
+        -webkit-filter: drop-shadow(5px 10px 20px #22222222);
+        filter: drop-shadow(5px 10px 20px #22222222);
+        margin-bottom: 0px;
+    }
+    
+    .cover {
+        width: 500px;
+        z-index: -1;
+        position: absolute;
+        top: 80px;
+        margin-left: 300px;
+        -webkit-filter: drop-shadow(10px 10px 40px #22222222);
+        filter: drop-shadow(10px 10px 40px #22222222);
+        display: none;
+    }
+    
+    #babystats {
+        width: 400px;
+        margin-left: 0px;
+    }
+    
+    .scheme img {
+        width: 300px;
+    }
+    
+    #personapic {
+        width: 350px;
+        margin-left: 0px;
+    }
+    
+    #customerpic {
+        width: 350px;
+        margin-left: 0px;
+    }
+    
+    #inspo {
+        width: 300px;
+    }
+    
+    #childrens {
+        width: 400px;
+    }
+    
+    #ia {
+        width: 300px;
+        margin-left: 0px;
+    }
+    
+    #wireframes {
+        width: 300px;
+        margin-top: 50px;
+        -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+        filter: drop-shadow(5px 10px 20px #2222221d);
+    }
+    
+    #UIelements {
+        width: 300px;
+        margin-top: 50px;
+        -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+        filter: drop-shadow(5px 10px 20px #2222221d);
+    }
+    
+    .video {
+        width: 300px;
+        height: 168px;
+        margin-left: 0px;
+    }
+    
+    #connection {
+        width: 400px;
+        margin-top: 50px;
+        -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+        filter: drop-shadow(5px 10px 20px #2222221d);
+        margin-left: -20px;
+    }
+    
+    .prototype {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 300px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(0deg, #5200FF, #3300a0, #1f0062, black, black);
+    background-attachment: fixed;
+    color: white;
+    font-family: Figtree;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(45deg, #000000, #5200ff);
+    background-size: 400% 400%;*/
+}
+    /*-webkit-animation: Backgroundanimation 35s ease infinite;
+    -moz-animation: Backgroundanimation 35s ease infinite;
+    animation: Backgroundanimation 35s ease infinite;
+}
+
+@-webkit-keyframes Backgroundanimation {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+@-moz-keyframes Backgroundanimation {
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}
+@keyframes Backgroundanimation { 
+    0%{background-position:90% 0%}
+    50%{background-position:11% 100%}
+    100%{background-position:90% 0%}
+}*/
+
+
+h1 {
+    font-weight: 500;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
+    animation-name: H1;
+    animation-duration: 4s;
+}
+
+@keyframes H1 {
+    from {opacity: 0%; margin-left: 50px;}
+    to {opacity: 100%; margin-left: 100px;}
+}
+
+.card {
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.232), rgba(255, 255, 255, 0.179));
+    padding: 40px;
+    margin-left: 100px;
+    margin-top: 0px;
+    border-radius: 32px;
+    /*border: 0.01px white solid;*/
+    box-sizing: border-box;
+    width: 560px;
+    backdrop-filter: blur(40px);
+    box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.23);
+    transition: all 0.6s;
+}
+
+.card p {
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    margin-top: 0;
+    margin-right: o;
+}
+
+.card:hover {
+    margin-left: 110px;
+    margin-top: -5px;
+    box-shadow: 40px 20px 60px rgba(0, 0, 0, 0.358);
+}
+
+.checkmywork {
+    padding: 10px;
+    background-color: #fefefe;
+    margin-left: 500px;
+    margin-top: -50px;
+    border-radius: 16px;
+    width: 200px;
+    color: #3903ac;
+    font-size: 20px;
+    font-family: Figtree;
+    border: none;
+    height: 66px;
+    box-shadow:  10px 5px 20px #04000e40;
+    font-weight: 500;
+    transition: background-color 0.4s;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+.checkmywork:hover {
+    color: #3400a5;
+    box-shadow:  20px 10px 30px  rgba(0, 0, 0, 0.358);
+    margin-left: 505px;
+    margin-top: -55px;
+    background-color: #ffffffe6;
+}
+
+.aboutme {
+    background-color: none;
+    margin-left: 0px;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Figtree;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.aboutme:hover::after {
+    content: url(Vector1ok.png);
+}
+
+/* .animatedlogo {
+    margin-top: -350px;
+    position: absolute;
+}
+
+.left {
+    width: 160px;
+    margin-left: 560px;
+    margin-top: 700px;
+}
+
+@-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .left {
+    -webkit-animation: rotating 60s linear infinite;
+    -moz-animation: rotating 60s linear infinite;
+    -ms-animation: rotating 60s linear infinite;
+    -o-animation: rotating 60s linear infinite;
+    animation: rotating 60s linear infinite;
+  } */
+  
+

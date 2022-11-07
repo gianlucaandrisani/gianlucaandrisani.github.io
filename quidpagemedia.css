@@ -1,0 +1,238 @@
+@media (min-width: 800px) and (max-width: 1280px) {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+    
+    .container {
+        margin-top: 400px;
+        width: 800px;
+        margin-left: 300px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    }
+    
+@media (min-width: 250px) and (max-width: 525px) {
+    
+    
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    height: 80%;
+}
+
+body {
+    height: 80%;
+    background: #1F2650;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-family: Figtree;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(45deg, #000000, #5200ff);
+    background-size: 400% 400%;*/
+}
+
+/* .backvec {
+    position: absolute;
+    margin-top: -600px;
+    z-index: -1;
+}
+
+
+ .backvec2 {
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+    margin-left: 1000px;
+    width: 800px;
+} */
+
+.backnav {
+    margin-top: 20px;
+    margin-left: 20px;
+    top: 60px;
+    position: relative;
+} 
+
+.container {
+    margin-top: 400px;
+    width: 300px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h2 {
+    /* margin-top: 100px; */
+    color: #82C4B1;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.brief p {
+    margin-bottom: 100px;
+    width: 300px;
+}
+
+p {
+    width: 300px;
+    font-size: 16px;
+}
+
+.daico {
+    margin-left: 20px;
+}
+
+.amme {
+    font-weight: 500;
+    color: #82C4B1;
+}
+
+.quidlogo {
+    width: 250px;
+    -webkit-filter: drop-shadow(5px 10px 20px #22222222);
+    filter: drop-shadow(5px 10px 20px #22222222);
+}
+
+.cover {
+    width: 350px;
+    z-index: -1;
+    position: absolute;
+    top: 250px;
+    margin-left: 300px;
+    -webkit-filter: drop-shadow(10px 10px 40px #22222222);
+    filter: drop-shadow(10px 10px 40px #22222222);
+    display: none;
+}
+
+.problem img {
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+/* #babyphoto {
+    display: inline;
+    width: 500px;
+}
+
+#stats {
+    display: inline;
+    width: 600px;
+} */
+
+#babystats {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.scheme {
+    padding: 0px;
+    border-radius: 32px;
+    width: 300px;
+}
+
+.scheme img {
+    width: 90%;
+}
+
+#personapic {
+    width: 300px;
+    margin-top: 50px;
+}
+
+#customerpic {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.flow1 {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.flow2 {
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.inspo {
+    width: 300px;
+}
+
+#ia {
+    width: 1000px;
+    margin-left: -250px;
+    margin-top: 50px;
+}
+
+#wireframes {
+    width: 300px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+}
+
+#UIelements {
+    width: 300px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+}
+
+.video {
+    width: 800px;
+    height: 450px;
+    margin-left: -75px;
+    margin-top: 50px;
+}
+
+.show {
+    width: 300px;
+    margin-bottom: 0px;
+    -webkit-filter: drop-shadow(5px 10px 20px #2222221d);
+    filter: drop-shadow(5px 10px 20px #2222221d);
+    margin-left: 0px;
+}
+
+.safetyprotocol {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.quidall {
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.inclusive {
+    width: 400px;
+    margin-top: 5px;
+}
+
+.stlogo {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.stacco {
+    margin-bottom: 100px;
+}
+
+.prototype {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+        
+}

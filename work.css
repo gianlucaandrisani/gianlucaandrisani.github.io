@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
+
+html{
+    height: 80%;
+}
+
+body {
+    height: 80%;
+    background: linear-gradient(0deg, #5200FF, #3300a0, #1f0062, black, black);
+    background-attachment: fixed;
+    color: white;
+    font-family: Figtree;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(45deg, #000000, #5200ff);
+    background-size: 400% 400%;*/
+}
+
+.backnav {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: sticky;
+    top: 60px;
+}
+
+
+.container {
+    margin-top: -300px;
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.seekuripic {
+    width: 65%;
+    margin-left: 60px;
+    /* position: absolute; */
+    margin-top: -280px;
+}
+
+.workbuddypic {
+    width: 80%;
+    margin-left: 20px;
+    /* position: absolute; */
+    margin-top: -270px;
+}
+
+.quidpic {
+    width: 70%;
+    margin-left: 20px;
+    /* position: absolute; */
+    margin-top: -270px;
+}
+
+.prhionpic {
+    width: 80%;
+    margin-left: 20px;
+    /* position: absolute; */
+    margin-top: -270px;
+}
+
+.exppic {
+    width: 70%;
+    margin-left: 25px;
+    /* position: absolute; */
+    margin-top: -275px;
+}
+
+
+/*.spacer {
+    height: 40px;
+}*/
+
+h2 {
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.workcard {
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.232), rgba(255, 255, 255, 0.179));
+    padding: 30px;
+    margin-top: 380px;
+    margin-right: 60px;
+    border-radius: 32px;
+    width: 300px;
+    height: 220px;
+    backdrop-filter: blur(40px);
+    box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.23);
+    transition: all 0.6s;
+}
+
+
+.workcard p {
+    font-weight: 300;
+}
+
+span {
+    font-weight: 450;
+}
+
+/*.projectbutton {
+    padding: 6px;
+    background-color: #fefefe;
+    margin-left: 450px;
+    margin-top: -25px;
+    border-radius: 16px;
+    width: 150px;
+    color: #3903ac;
+    font-size: 18px;
+    font-family: Figtree;
+    border: none;
+    height: 46px;
+    box-shadow:  10px 5px 20px #04000e40;
+    font-weight: 500;
+    transition: background-color 0.4s;
+    position: absolute;
+    transition: all 0.6s;
+}*/
+
+.projectbutton {
+    position: absolute;
+    padding: 6px;
+    background-color: #fefefe;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 16px;
+    width: 150px;
+    color: #3903ac;
+    font-size: 18px;
+    font-family: Figtree;
+    border: none;
+    height: 46px;
+    box-shadow:  10px 5px 20px #04000e40;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+
+.workcard:hover {
+    /*margin-left: 20px;*/
+    margin-top: 360px;
+    box-shadow: 40px 20px 80px rgba(0, 0, 0, 0.23);
+}
+
+.projectbutton:hover {
+    padding: 8px;
+    margin-top: 15px;
+    box-shadow:  20px 10px 40px #04000e40;
+}

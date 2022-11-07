@@ -1,0 +1,83 @@
+@media (min-width: 350px) and (max-width: 414px) {
+
+    html{
+        height: 80%;
+    }
+    
+    body {
+        height: 80%;
+        background: linear-gradient(0deg, #5200FF, #3300a0, #1f0062, black, black);
+        background-attachment: fixed;
+        color: white;
+        font-family: Figtree;
+        background-repeat: no-repeat;
+        /*background: linear-gradient(45deg, #000000, #5200ff);
+        background-size: 400% 400%;*/
+    }
+
+
+    h1 {
+        font-size: 52px;
+        margin-left: 40px;
+        margin-top: 150px;
+        animation-name: H1;
+        animation-duration: 4s;
+    }
+
+    @keyframes H1 {
+        from {opacity: 0%; margin-left: 5px;}
+        to {opacity: 100%; margin-left: 40px;}
+    }
+
+    .card {
+        background: linear-gradient(225deg, rgba(255, 255, 255, 0.232), rgba(255, 255, 255, 0.179));
+        padding: 30px;
+        margin-left: 40px;
+        border-radius: 16px;
+        /*border: 0.01px white solid;*/
+        box-sizing: border-box;
+        width: 300px;
+        backdrop-filter: blur(40px);
+        box-shadow: 20px 10px 40px rgba(0, 0, 0, 0.23);
+        transition: all 0.6s;
+    }
+    
+    .card p {
+        font-size: 16px;
+        font-weight: 300;
+        color: white;
+        margin-top: 0;
+        margin-right: o;
+    }
+
+    .checkmywork {
+        padding: 5px;
+        background-color: #fefefe;
+        margin-left: 130px;
+        margin-top: -15px;
+        border-radius: 8px;
+        width: 120px;
+        color: #3903ac;
+        font-size: 14px;
+        font-family: Figtree;
+        border: none;
+        height: 40px;
+        box-shadow:  10px 5px 20px #04000e40;
+        font-weight: 500;
+        transition: background-color 0.4s;
+        position: absolute;
+        transition: all 0.6s;
+    }
+
+    .aboutme {
+        background-color: none;
+        margin-left: 0px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: Figtree;
+        font-weight: 500;
+        text-decoration: underline;
+        transition: all 0.6s;
+        position: relative;
+    }
+}
